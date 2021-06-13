@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+}
+body > div {
+  padding: 20px;
+}
+
+#navigation {
+  background-color: red;
+}
+#header {
+  background-color: blue;
+}
+#subnavigation {
+  background-color: green;
+}
+#main {
+  background-color: yellow;
+}
+#files {
+  padding: 20px;
+  background-color: purple;
+}
+#metabar {
+  padding: 20px;
+  background-color: gray;
+}
+
+@media screen and (min-width: 600px) {
+  #main {
+    display: flex;
+  }
+  #main > div {
+    flex: 1;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #main {
+    max-width: 1100px;
+  }
+}
