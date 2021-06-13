@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+  }
+  body > div {
+    padding: 20px;
+  }
+  
+@media screen and (min-width: 600px) {
+    #main {
+      display: flex;
+    }
+    #main > div {
+      flex: 1;
+    }
+    #main #files {
+      flex-basis: 930px;
+    }
+    #main #metabar {
+      flex-basis: 310px;
+    }
+  }
+  
+  
+@media screen and (min-width: 1200px) {
+    #main {
+      max-width: 1100px;
+    }
+  }
+  

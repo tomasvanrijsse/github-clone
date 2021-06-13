@@ -1,0 +1,29 @@
+#files {
+
+
+}
+
+#files .row {
+
+
+}
+
+#files .row .column {
+    
+}
+
+/* Mobile state for files view */
+@media screen and (min-width: 600px) {
+
+}
+
+/* Tablet state for files view */
+@media screen and (min-width: 600px and max-width: 1200px) {
+        #tablet-button {
+            display:block;
+        }
+}
+
+@media screen and (min-width: 1200px) {
+
+}
